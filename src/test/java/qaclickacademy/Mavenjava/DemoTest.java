@@ -9,4 +9,10 @@ public class DemoTest
     {
     	System.out.println("Newly added TC");
     }
+    
+    @Test
+    public void practice()
+    {
+    	System.out.println("Trying again");
+    }
 }
