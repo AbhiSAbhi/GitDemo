@@ -38,6 +38,15 @@ public class MainSteps
 	public void user_login_into_application_with_and_password(String username, String password) 
 	{
        System.out.println(username + " and password is "+password);
+       //Below Steps are added for practice purpose to test Github - this project is cloned from GitHub Repository
+       System.out.println("User should be logged in");
+       System.out.println("User should be able to view UI of Email");
+       
+       System.out.println("User should be able to view Compose");
+       System.out.println("User should be able to view Inbox");
+       System.out.println("User should be able to view sent");
+       System.out.println("User should be able to view Junk");
+       
 		}
 	
 	@Then("Home page is displayed")
