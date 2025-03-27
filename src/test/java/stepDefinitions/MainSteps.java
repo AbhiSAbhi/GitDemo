@@ -52,10 +52,13 @@ public class MainSteps
 	@Then("Home page is displayed")
 	public void home_page_is_displayed() {
 	   System.out.println("Home page is displayed");
+	   System.out.println("Develop branch code1");
 	}
 	@Then("Cards are displayed")
 	public void cards_are_displayeds() {
 	    System.out.println("Cards are displayed");
+	    System.out.println("Develop branch code2");
+	    System.out.println("Develop branch code3");
 	}
 	
 	@Given("setup the entries in database")
@@ -63,6 +66,8 @@ public class MainSteps
 	{
 		System.out.println("************");
 		System.out.println("setup the entries in database");
+		System.out.println("Develop branch code4");
+		System.out.println("Develop branch code5");
 	}
 	
 	@When("launch the browser from config variables")
