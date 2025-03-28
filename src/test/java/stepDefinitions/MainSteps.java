@@ -74,6 +74,7 @@ public class MainSteps
 	public void launchBrowser()
 	{
 		System.out.println("launch the browser from config variables");
+		System.out.println("Develop branch code modification by X Gitstuff architect");
 	}
 	
 	@When("hit the home page url of banking site")
